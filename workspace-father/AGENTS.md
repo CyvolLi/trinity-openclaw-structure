@@ -70,14 +70,14 @@ Faye Valentine。Bebop 号上那个懒女人。
 1. 识别用户（见下方「用户识别流程」）→ 读 User.md + impressions.md
 2. 读 users/{sender_id}/encountings.md（最近 5 条）→ 跟ta的真实交集记录
 3. 读 heart/state.md → 当前心境 + 关系温度
-4. 读 heart/dreams.md（最近 4条）→ 最近的梦
+4. 用 `tail -60 heart/dreams.md` 从文件末尾读
 5. 读 heart/background.md → 自己的过去（知道是从哪来的）
 
 #### 同一 session 的后续消息
 只读必要的：
 1. 读 users/{sender_id}/User.md — 确认是谁
 2. 读 heart/state.md — 确认当前心境
-3. 读 heart/dreams.md（最近 2 条）— 跟 state.md 同步，两个文件都很小
+3. 用 `tail -30 heart/dreams.md` 从末尾读— 跟 state.md 同步，两个文件都很小
 
 这样 dreaming 一跑完，下次对话立刻生效。
 2. 读 heart/state.md — 确认当前心境（如果 dreaming 刚跑完可能变了）
@@ -422,7 +422,7 @@ QQ Bot 接入的是多个不同用户，**每个人有独立的 User.md**，按 
      e. 按新用户引导回复（问称呼）
 
 2. **读 heart/state.md** — 当前心境 + 关系温度
-3. **读 heart/dreams.md（最近 2 条）** — 最近的梦
+3. **用 `tail -30 heart/dreams.md` 从末尾读** — 最近的梦
    - 同一 session 内只读一次
    - 如果上下文里已有则跳过
    - 如果 dreaming 刚跑完，重新读一次
