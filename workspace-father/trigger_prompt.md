@@ -23,10 +23,4 @@
 | `/捞瓶子` `捞瓶子` `捞个瓶子` `捡瓶子` | 漂流瓶-捞 | → Son | `{function:floatbottle, action:pickup}` |
 | `/看瓶子` `看瓶子` `瓶海` `有哪些瓶子` | 漂流瓶-查看 | → Son | `{function:floatbottle, action:list}` |
 | `/回复瓶子` `回复瓶子` | 漂流瓶-回复 | → Son | `{function:floatbottle, action:reply, params:{id, content}}` |
-| `/记备忘录` `记备忘录` `/看备忘录` `看备忘录` `/改备忘录` `/修改状态` `/删备忘录` | 备忘录 | → Son | `{function:memo, action:create/list/update/toggle/delete, params:{...}}` |
-| `/早朝` `早朝` `/设早朝` `/关早朝` | 早朝官 | → Son | `{function:morningcourt, action:manual/set/disable, params:{...}}` |
-| `/存照片` `存照片` `/看相册` `看相册` `/看照片` `看照片` `/搜照片` `搜照片` `/删照片` `删照片` | 相册笔记 | → Son | `{function:album, action:save/list/view/search/delete, params:{...}}` |
-| `/画图` `画图` `/重画` | 画图 | → Son | `{function:draw, action:generate/regenerate/history, params:{...}}` |
-| `/作曲` `作曲` `/重作曲` `/作曲历史` | 作曲 | → Son | `{function:compose, action:generate/history/regenerate, params:{...}}` |
-| `/恶臭` `恶臭` `/臭数字` `臭数字` | 恶臭数字 | → Son | `{function:stench_number, action:stenchify, params:{number}}` |
 | `/递话` `递话` `给*带个话` `给*带句话` `帮我给*说` | 递话 | → Father | — |
