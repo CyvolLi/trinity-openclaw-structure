@@ -11,12 +11,6 @@
 | Function ID | 功能名 | 定义文件 | 数据目录 |
 |-------------|--------|---------|---------|
 | floatbottle | 漂流瓶 | `functions/floatbottle_function.md` | `floatbottle/` |
-| memo | 备忘录 | `functions/memo_function.md` | `memo/` |
-| morningcourt | 早朝官 | `functions/morningcourt_function.md` | `morningcourt/` |
-| album | 相册笔记 | `functions/album_function.md` | `album/` |
-| draw | 画图 | `functions/draw_function.md` | `draw/` |
-| compose | 作曲 | `functions/compose_function.md` | `compose/` |
-| stench_number | 恶臭数字 | `functions/stench_number_function.md` | `stench_number/` |
 
 ---
 
