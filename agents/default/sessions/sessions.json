@@ -1,7 +1,7 @@
 {
   "agent:default:main": {
     "sessionId": "9badf464-dde5-406b-94ea-3e0570836d34",
-    "updatedAt": 1780636173664,
+    "updatedAt": 1780639960338,
     "sessionStartedAt": 1780148269758,
     "lastInteractionAt": 1780149286562,
     "systemSent": true,
@@ -100,13 +100,13 @@
       "version": 0
     },
     "status": "done",
-    "startedAt": 1780636170567,
+    "startedAt": 1780639839793,
     "modelProvider": "deepseek",
     "model": "deepseek-v4-flash",
     "contextTokens": 1000000,
     "systemPromptReport": {
       "source": "run",
-      "generatedAt": 1780636170192,
+      "generatedAt": 1780637970324,
       "sessionId": "9badf464-dde5-406b-94ea-3e0570836d34",
       "sessionKey": "agent:default:main",
       "provider": "deepseek",
@@ -126,10 +126,10 @@
         "sandboxed": false
       },
       "systemPrompt": {
-        "chars": 29223,
+        "chars": 29213,
         "projectContextChars": 12308,
-        "nonProjectContextChars": 16915,
-        "hash": "61f9d664bee9e55287a47ffad0d49d699a52ed396d2cec4286d44d9c181ef586"
+        "nonProjectContextChars": 16905,
+        "hash": "1d73f3969a75997a1ff78e207e1d634792ea1278f763395607143dc38fe67d60"
       },
       "injectedWorkspaceFiles": [
         {
@@ -430,15 +430,15 @@
         "runtimeContextChars": 664
       }
     },
-    "inputTokens": 232,
-    "outputTokens": 25,
-    "cacheRead": 68352,
+    "inputTokens": 67445,
+    "outputTokens": 27,
+    "cacheRead": 1152,
     "cacheWrite": 0,
-    "estimatedCostUsd": 0.001953336,
-    "totalTokens": 68584,
+    "estimatedCostUsd": 0.009482116,
+    "totalTokens": 68597,
     "totalTokensFresh": true,
-    "endedAt": 1780636173063,
-    "runtimeMs": 2496
+    "endedAt": 1780639960332,
+    "runtimeMs": 120539
   },
   "agent:default:qqbot:direct:c2c:6687d4d2d1f8eda5231c6809b1a26204": {
     "origin": {
