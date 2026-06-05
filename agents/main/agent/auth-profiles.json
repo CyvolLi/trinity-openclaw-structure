@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "profiles": {
+    "deepseek:default": {
+      "type": "api_key",
+      "provider": "deepseek",
+      "key": "sk-b461ef1cc3214342878dac40f2f5ee5a"
+    }
+  }
+}

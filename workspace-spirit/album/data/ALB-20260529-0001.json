@@ -1,0 +1,17 @@
+{
+  "id": "ALB-20260529-0001",
+  "timestamp": "2026-05-29T01:51:00+08:00",
+  "sender_id": "6687D4D2D1F8EDA5231C6809B1A26204",
+  "image": {
+    "filename": "ALB-20260529-0001.jpg",
+    "original_name": "C9A3F5AACD1FCEA0740AD0696321779D_1779990690028_67d79a.jpg",
+    "size_bytes": 294946,
+    "path": "images/6687D4D2D1F8EDA5231C6809B1A26204/ALB-20260529-0001.jpg"
+  },
+  "annotation": "按照图片写一首爱伦坡式的短诗",
+  "tags": [
+    "星海"
+  ],
+  "analysis": "",
+  "source": "qqbot"
+}

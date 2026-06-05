@@ -1,0 +1,185 @@
+{
+  "version": 1,
+  "jobs": {
+    "f37cede8-fd3c-4028-aa63-6fc7979d15d9": {
+      "updatedAtMs": 1780599969264,
+      "scheduleIdentity": "{\"version\":1,\"enabled\":true,\"schedule\":{\"kind\":\"cron\",\"expr\":\"0 3 * * *\",\"tz\":\"Asia/Shanghai\"}}",
+      "state": {
+        "nextRunAtMs": 1780686000000,
+        "lastRunAtMs": 1780599600754,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 368510,
+        "lastDeliveryStatus": "not-requested",
+        "lastFailureNotificationDeliveryStatus": "not-requested",
+        "consecutiveErrors": 0,
+        "consecutiveSkipped": 0
+      }
+    },
+    "2afce9dd-26c0-4dfe-94aa-6e5db1d43b56": {
+      "updatedAtMs": 1780632216658,
+      "scheduleIdentity": "{\"version\":1,\"enabled\":true,\"schedule\":{\"kind\":\"cron\",\"expr\":\"0 */6 * * *\",\"tz\":\"Asia/Shanghai\",\"staggerMs\":300000}}",
+      "state": {
+        "nextRunAtMs": 1780653795301,
+        "lastRunAtMs": 1780632195620,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 21038,
+        "lastDeliveryStatus": "not-requested",
+        "lastFailureNotificationDeliveryStatus": "not-requested",
+        "consecutiveErrors": 0,
+        "consecutiveSkipped": 0
+      }
+    },
+    "3ce8f390-be71-45fd-ac62-3c283f22af83": {
+      "updatedAtMs": 1780248302252,
+      "scheduleIdentity": "{\"version\":1,\"enabled\":false,\"schedule\":{\"kind\":\"at\",\"at\":\"2026-05-31T17:30:00.000Z\"}}",
+      "state": {}
+    },
+    "9308c406-fb28-4bbf-b217-48d2f1e516ff": {
+      "updatedAtMs": 1780249975581,
+      "scheduleIdentity": "{\"version\":1,\"enabled\":false,\"schedule\":{\"kind\":\"at\",\"at\":\"2026-05-31T17:38:00.000Z\"}}",
+      "state": {
+        "lastRunAtMs": 1780249851899,
+        "lastRunStatus": "error",
+        "lastStatus": "error",
+        "lastDurationMs": 123682,
+        "lastDiagnostics": {
+          "summary": "cron: job execution timed out (last phase: model-call-started)",
+          "entries": [
+            {
+              "ts": 1780249975580,
+              "source": "cron-setup",
+              "severity": "error",
+              "message": "cron: job execution timed out (last phase: model-call-started)"
+            }
+          ]
+        },
+        "lastDiagnosticSummary": "cron: job execution timed out (last phase: model-call-started)",
+        "lastErrorReason": "timeout",
+        "lastDeliveryStatus": "unknown",
+        "lastFailureNotificationDeliveryStatus": "unknown",
+        "consecutiveErrors": 4,
+        "consecutiveSkipped": 0,
+        "lastError": "cron: job execution timed out (last phase: model-call-started)"
+      }
+    },
+    "ecb1bfd3-943b-40d5-941a-3bc8ad59327c": {
+      "updatedAtMs": 1780277176394,
+      "scheduleIdentity": "{\"version\":1,\"enabled\":false,\"schedule\":{\"kind\":\"at\",\"at\":\"2026-06-01T01:26:00.000Z\"}}",
+      "state": {
+        "lastRunAtMs": 1780277160044,
+        "lastRunStatus": "error",
+        "lastStatus": "error",
+        "lastDurationMs": 16350,
+        "lastError": "⚠️ ⏰ Cron: 递话 汀桑→名 怎么起这么早 failed",
+        "lastDiagnostics": {
+          "summary": "⚠️ ⏰ Cron: 递话 汀桑→名 怎么起这么早 failed",
+          "entries": [
+            {
+              "ts": 1780277175058,
+              "source": "tool",
+              "severity": "error",
+              "message": "⚠️ ⏰ Cron: 递话 汀桑→名 怎么起这么早 failed"
+            },
+            {
+              "ts": 1780277176386,
+              "source": "agent-run",
+              "severity": "error",
+              "message": "⚠️ ⏰ Cron: 递话 汀桑→名 怎么起这么早 failed"
+            }
+          ]
+        },
+        "lastDiagnosticSummary": "⚠️ ⏰ Cron: 递话 汀桑→名 怎么起这么早 failed",
+        "lastDelivered": false,
+        "lastDeliveryStatus": "not-delivered",
+        "lastDeliveryError": "⚠️ ⏰ Cron: 递话 汀桑→名 怎么起这么早 failed",
+        "lastFailureNotificationDelivered": false,
+        "lastFailureNotificationDeliveryStatus": "not-delivered",
+        "lastFailureNotificationDeliveryError": "⚠️ ⏰ Cron: 递话 汀桑→名 怎么起这么早 failed",
+        "consecutiveErrors": 1,
+        "consecutiveSkipped": 0
+      }
+    },
+    "bb92bbc6-da47-4398-abc7-69666c1c4362": {
+      "updatedAtMs": 1780277452303,
+      "scheduleIdentity": "{\"version\":1,\"enabled\":false,\"schedule\":{\"kind\":\"at\",\"at\":\"2026-06-01T01:30:00.000Z\"}}",
+      "state": {
+        "lastRunAtMs": 1780277400064,
+        "lastRunStatus": "error",
+        "lastStatus": "error",
+        "lastDurationMs": 52239,
+        "lastError": "⚠️ ⏰ Cron: 递话-名-to-汀桑-20260601 failed",
+        "lastDiagnostics": {
+          "summary": "⚠️ ⏰ Cron: 递话-名-to-汀桑-20260601 failed",
+          "entries": [
+            {
+              "ts": 1780277451898,
+              "source": "tool",
+              "severity": "error",
+              "message": "⚠️ ⏰ Cron: 递话-名-to-汀桑-20260601 failed"
+            },
+            {
+              "ts": 1780277452296,
+              "source": "agent-run",
+              "severity": "error",
+              "message": "⚠️ ⏰ Cron: 递话-名-to-汀桑-20260601 failed"
+            }
+          ]
+        },
+        "lastDiagnosticSummary": "⚠️ ⏰ Cron: 递话-名-to-汀桑-20260601 failed",
+        "lastDelivered": false,
+        "lastDeliveryStatus": "not-delivered",
+        "lastDeliveryError": "⚠️ ⏰ Cron: 递话-名-to-汀桑-20260601 failed",
+        "lastFailureNotificationDelivered": true,
+        "lastFailureNotificationDeliveryStatus": "delivered",
+        "consecutiveErrors": 1,
+        "consecutiveSkipped": 0
+      }
+    },
+    "07122d9a-0e83-45ae-9682-c45e67a1f882": {
+      "updatedAtMs": 1780630224033,
+      "scheduleIdentity": "{\"version\":1,\"enabled\":true,\"schedule\":{\"kind\":\"cron\",\"expr\":\"0 7 * * *\"}}",
+      "state": {
+        "nextRunAtMs": 1780700400000,
+        "lastRunAtMs": 1780617600225,
+        "lastRunStatus": "error",
+        "lastStatus": "error",
+        "lastDurationMs": 122795,
+        "lastError": "cron: job execution timed out (last phase: model-call-started)",
+        "lastDiagnostics": {
+          "summary": "cron: job execution timed out (last phase: model-call-started)",
+          "entries": [
+            {
+              "ts": 1780617723020,
+              "source": "cron-setup",
+              "severity": "error",
+              "message": "cron: job execution timed out (last phase: model-call-started)"
+            }
+          ]
+        },
+        "lastDiagnosticSummary": "cron: job execution timed out (last phase: model-call-started)",
+        "lastErrorReason": "timeout",
+        "lastDeliveryStatus": "unknown",
+        "lastFailureNotificationDeliveryStatus": "unknown",
+        "consecutiveErrors": 1,
+        "consecutiveSkipped": 0
+      }
+    },
+    "dab72463-f2bc-4cfa-a3ed-762a98d5989f": {
+      "updatedAtMs": 1780635772633,
+      "scheduleIdentity": "{\"version\":1,\"enabled\":true,\"schedule\":{\"kind\":\"cron\",\"expr\":\"0 * * * *\",\"tz\":\"Asia/Shanghai\"}}",
+      "state": {
+        "nextRunAtMs": 1780639361049,
+        "lastRunAtMs": 1780635761200,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 11433,
+        "lastDeliveryStatus": "not-requested",
+        "lastFailureNotificationDeliveryStatus": "not-requested",
+        "consecutiveErrors": 0,
+        "consecutiveSkipped": 0
+      }
+    }
+  }
+}
