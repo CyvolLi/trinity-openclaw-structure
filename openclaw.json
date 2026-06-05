@@ -237,7 +237,7 @@
       "dashscope": {
         "baseUrl": "https://dashscope.aliyuncs.com/compatible-mode/v1",
         "api": "openai-completions",
-        "apiKey": "sk-ff3e52346cce4a94aeafa1375862e82b",
+        "apiKey": "",
         "models": [
           {
             "id": "qwen3-vl-flash",
@@ -272,35 +272,9 @@
       ],
       "accounts": {
         "bot1": {
-          "appId": "1904085484",
-          "clientSecret": "NvU3dDoQ2fIwaFvbIzhP8scN8ugTH5uj"
-        },
-        "bot2": {
-          "appId": "1904088180",
-          "clientSecret": "xlaPF5wnfXQKE940wtqomlllmnprux15"
-        },
-        "bot3": {
-          "appId": "1904090109",
-          "clientSecret": "a9aopgTBmDRRHvMZ"
-        },
-        "bot4": {
-          "appId": "1904093350",
-          "clientSecret": "JlDgAe9eAgDkIrQ0aBmO0dHvaFvbIzhP"
-        },
-        "bot5": {
-          "appId": "1904097640",
-          "clientSecret": "2pcQE3tjaRJB4ysnieaXVTSRRRSUWZcg"
-        },
-        "bot6": {
-          "appId": "1904097583",
-          "clientSecret": "RozxhEXdV8YjgQwD"
-        },
-        "bot7": {
-          "appId": "1904104263",
-          "clientSecret": "eEblhQwEJAnDQPBj"
+          "appId": "",
+          "clientSecret": ""
         }
-      }
-    }
   },
   "bindings": [
     {
@@ -309,54 +283,6 @@
       "match": {
         "channel": "qqbot",
         "accountId": "bot1"
-      }
-    },
-    {
-      "type": "route",
-      "agentId": "father",
-      "match": {
-        "channel": "qqbot",
-        "accountId": "bot2"
-      }
-    },
-    {
-      "type": "route",
-      "agentId": "father",
-      "match": {
-        "channel": "qqbot",
-        "accountId": "bot3"
-      }
-    },
-    {
-      "type": "route",
-      "agentId": "father",
-      "match": {
-        "channel": "qqbot",
-        "accountId": "bot4"
-      }
-    },
-    {
-      "type": "route",
-      "agentId": "father",
-      "match": {
-        "channel": "qqbot",
-        "accountId": "bot5"
-      }
-    },
-    {
-      "type": "route",
-      "agentId": "father",
-      "match": {
-        "channel": "qqbot",
-        "accountId": "bot6"
-      }
-    },
-    {
-      "type": "route",
-      "agentId": "father",
-      "match": {
-        "channel": "qqbot",
-        "accountId": "bot7"
       }
     }
   ],
