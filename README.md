@@ -63,12 +63,7 @@
 ~/.openclaw/workspace-son/        # Son 工作区
 ├── functions/          # 功能定义文件（xxx_function.md）
 ├── functions_manifest.md  # 功能清单
-├── floatbottle/        # 漂流瓶数据
-├── memo/               # 备忘录数据
-├── album/              # 相册数据
-├── morningcourt/       # 早朝官配置
-├── draw/               # 画图记录
-└── compose/            # 作曲记录
+#剩下自己配置
 ```
 
 ---
